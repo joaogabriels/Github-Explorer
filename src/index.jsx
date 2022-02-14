@@ -1,5 +1,6 @@
 import {render} from 'react-dom';
+import { App } from './app';
 import './styles/global.scss'
 
 
-render(<h1>Hello World</h1>, document.getElementById('root'))
+render(App(), document.getElementById('root'))
