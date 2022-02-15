@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+  
+    "target": "es2016",                                 
+    "lib": ["dom", "dom.Iterable", "esnext"],                                      
+    "moduleResolution": "node",                       
+    "resolveJsonModule": true,                      
+    "allowJs": true,                                 
+    "noEmit": true,                                 
+    "allowSyntheticDefaultImports": true,             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "skipLibCheck": true,
+    "jsx": "react-jsx"                                
+  },
+  "include": ["src"],
+}
